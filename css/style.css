@@ -1,0 +1,71 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:focus, input:focus, teaxarea:focus, button:focus{outline: 0 solid;}
+a:hover{
+	text-decoration: none;
+}
+.section-padding{padding: 80px 0;}
+/* Main CSS Stop */
+/* ===  Section CSS Start === */
+.section-bg-1{background-image: url(../img/bg-1.jpg);}
+.section-bg-2{background-image: url(../img/bg-2.jpg);}
+.single-service-item h2 {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+  margin-top: 75px;
+}
+body {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.boxed-btn {
+  background: lightcoral;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  margin-top: 25px;
+}
+.section-bg{
+	background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+	height: 100%;
+	width: 100%;
+}
+.bordered-img {
+  height: 450px;
+  margin-right: -200px;
+  width: 540px;
+  position: relative;
+  z-index: 2;
+}
+.bordered-img:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: -25px;
+  bottom: -25px;
+  border: 1px solid #b55454;
+  z-index: -1;
+}
+.bordered-img.left-side-bg {
+  margin-right: 0;
+  margin-left: -225px;
+}
+/* ===  Section CSS Stop === */
